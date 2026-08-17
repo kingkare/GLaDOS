@@ -3,7 +3,7 @@ import requests
 import json
 
 # 从环境变量中读取配置信息
-cookie = os.environ.get("GLADOS_COOKIE_1")
+cookie = os.environ.get("GLADOS_COOKIE")
 tg_token = os.environ.get("TG_BOT_TOKEN")
 tg_chat_id = os.environ.get("TG_CHAT_ID")
 
