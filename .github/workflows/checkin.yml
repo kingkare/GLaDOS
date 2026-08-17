@@ -1,4 +1,4 @@
-name: GLaDOS Daily Checkin
+name: GLaDOS自动签到
 
 on:
   schedule:
