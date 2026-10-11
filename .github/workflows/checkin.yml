@@ -8,7 +8,9 @@ on:
 
 jobs:
   checkin:
-    runs-on: ubuntu-latest
+    # 将 ubuntu-latest 改为固定版本，避免系统环境自动迁移带来的提示与潜在兼容问题
+    runs-on: ubuntu-24.04
+
     steps:
       - name: Checkout Code
         uses: actions/checkout@v6
